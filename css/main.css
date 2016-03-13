@@ -1,12 +1,23 @@
 a {
 	text-decoration: none;
-	color: #AEAE3F; "/*no se sabe que cambia*/"
+	color: white; "/*no se sabe que cambia*/"
 }
 
 footer {
-	color: yellow; "/*color de letras copy gelnda fabian*/"
+	color: orange; "/*color de letras copy gelnda fabian*/"
 	background: #ffffff; 
 }
+
+footer {               "/*centrado footer pie de pagina links*/"
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+		}
+}
+
+
 a {
 	text-decoration: none;
 }
@@ -14,8 +25,8 @@ a {
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
-	padding: 0 5%;
-	background: #FC614C;
+	padding: 5%;
+	background: brown; "/*color fondo de pag galeria*/"
 }
 
 #logo {
@@ -49,10 +60,10 @@ header {
 }
 
 		h1{
-			color: #000000;
+			color: #000000; "/*color de titulo ppal*/"
 			}
 		h2{
-			color: white;
+			color: white; "/*color sub titulo pag*/"
 		  	}
 
 h1 { font-family: 'Indie Flower', cursive;
@@ -61,13 +72,13 @@ h1 { font-family: 'Indie Flower', cursive;
 	 font-weight: normal;
 }
 *h2 { font-family: 'Oswald', sans-serif;
-	 margin: 10px o;
-	 font-size: 4em;
+	 margin: 15px o;
+	 font-size: 6em;
 	 font-weight: normal;
 	}
 
 nav{
-	background: orange;
+	background: orange; "/*fondo barra de navegacion*/"
 
 }
 
@@ -75,10 +86,10 @@ nav a, nav a:visited {
 	color: 004220;
 }
 nav a.selected {
-	color: #ffffff;
+	color: #ffffff; "/*color letra de vinculos de navegacion*/"
 }
 nav a:hover {
-	color: #000000;
+	color: #000000; "/*color cuando opasa el punteros en links*/"
 }
 
 
