@@ -123,3 +123,13 @@ img {
 			   height: 30px;
 			   margin: 0 5px; 
 			 }
+
+"/**********ABOUT*************/"
+
+
+.profile {
+	display: block;
+	max-width: 15px;
+	margin: 0 auto 30px;
+	border-radius: 100%
+}
