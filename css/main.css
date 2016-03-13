@@ -1,11 +1,11 @@
 a {
 	text-decoration: none;
-	color: #AEAE3F;
+	color: #AEAE3F; "/*no se sabe que cambia*/"
 }
 
 footer {
-	color: red;
-	background: #7F2323;
+	color: yellow; "/*color de letras copy gelnda fabian*/"
+	background: #ffffff; 
 }
 a {
 	text-decoration: none;
@@ -23,19 +23,52 @@ a {
 	margin: 0;
 }
 
+#galeria {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#galeria li { float: center;
+			width: 80%;
+			margin: 2%; "/*margen de separacion entre fotos de galeria*/"
+			background-color: white;
+			color: #black;
+			}
+
+#galeria li a p {
+				margin: 0;
+				padding: 5%;
+				font-size: 0.75em;
+				color: #000000;
+				}
 
 header {
-	background: #7F2323;
-	border-color: #1E2E55;
+	background: brown; "/*fondo del encabezado ppal*/"
+	border-color: black;
 }
 
-h1, h2 {
-	color: #000000;
-}
+		h1{
+			color: #000000;
+			}
+		h2{
+			color: white;
+		  	}
 
+h1 { font-family: 'Indie Flower', cursive;
+	 margin: 15px o;
+	 font-size: 6em;
+	 font-weight: normal;
+}
+*h2 { font-family: 'Oswald', sans-serif;
+	 margin: 10px o;
+	 font-size: 4em;
+	 font-weight: normal;
+	}
 
 nav{
-	background: #FC614C;
+	background: orange;
+
 }
 
 nav a, nav a:visited {
@@ -48,8 +81,8 @@ nav a:hover {
 	color: #000000;
 }
 
-h1 { font-family: 'Indie Flower', cursive;
-	 margin: 15px o;
-	 font-size: 4.75em;
-	 font-weight: normal;
+
+
+img {
+	max-width: 100%;
 }
