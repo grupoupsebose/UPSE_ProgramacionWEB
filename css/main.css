@@ -1,19 +1,19 @@
 a {
 	text-decoration: none;
-	color: white; "/*no se sabe que cambia*/"
+	color: white; /*no se sabe que cambia*/
 }
 
 footer {
-	color: orange; "/*color de letras copy gelnda fabian*/"
-	background: #ffffff; 
+	color: white; /*color de letras copy gelnda fabian*/
+	background: brown; 
 }
 
-footer {               "/*centrado footer pie de pagina links*/"
+footer {               /*centrado footer pie de pagina links*/
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
-	color: #ccc;
+	color: #cccccc;
 		}
 }
 
@@ -23,10 +23,10 @@ a {
 }
 
 #wrapper {
-	max-width: 940px;
+	max-width: 1500px;
 	margin: 0 auto;
 	padding: 5%;
-	background: brown; "/*color fondo de pag galeria*/"
+	background: gray; /*color fondo de pag galeria*/
 }
 
 #logo {
@@ -40,14 +40,14 @@ a {
 	list-style: none;
 }
 
-#galeria li { float: center;
-			width: 80%;
-			margin: 2%; "/*margen de separacion entre fotos de galeria*/"
+#galeria li { float: left;
+			width: 50%;
+			margin: 2%; /*margen de separacion entre fotos de galeria*/
 			background-color: white;
-			color: #black;
+			color: black;
 			}
 
-#galeria li a p {
+#galeria li p {
 				margin: 0;
 				padding: 5%;
 				font-size: 0.75em;
@@ -55,7 +55,7 @@ a {
 				}
 
 header {
-	background: brown; "/*fondo del encabezado ppal*/"
+	background: brown; /*fondo del encabezado ppal*/
 	border-color: black;
 }
 
@@ -69,10 +69,10 @@ header {
 
 
 		h1{
-			color: #000000; "/*color de titulo ppal*/"
+			color: #000000; /*color de titulo ppal*/
 			}
 		h2{
-			color: white; "/*color sub titulo pag*/"
+			color: white; /*color sub titulo pag*/
 		  	}
 
 h1 { font-family: 'Indie Flower', cursive;
@@ -87,18 +87,18 @@ h2 { font-family: 'Oswald', sans-serif;
 	}
 
 nav{
-	background: orange; "/*fondo barra de navegacion*/"
+	background: orange; /*fondo barra de navegacion*/
 
 }
 
 nav a, nav a:visited {
-	color: 004220;
+	color: #004220;
 }
 nav a.selected {
-	color: #ffffff; "/*color letra de vinculos de navegacion*/"
+	color: #ffffff; /*color letra de vinculos de navegacion*/
 }
 nav a:hover {
-	color: #000000; "/*color cuando opasa el punteros en links*/"
+	color: #000000; /*color cuando opasa el punteros en links*/
 }
 
 nav ul {
@@ -137,6 +137,22 @@ img {
 /*******************
 PAGINA CONTACT
 *******************/
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+
+.contact-info a { display:block;
+			min-height: 20px;
+			background-repeat: no-repeat;
+			background-size: 20px 20px;
+			padding: 0 0 0 30px;
+			margin: 0 0 10px;}
+ 
+
 
 .contact-info li.phone a{
 	background-image: url("../img/telefono2.png");
@@ -148,9 +164,3 @@ PAGINA CONTACT
 	background-image: url("../img/twitter2.png");
 }
 
-.contact-info a { display:block;
-			min-height: 20px;
-			background-repeat: no-repeat;
-			background-size: 20px 20px;
-			padding: 0 0 0 30px;
-			margin: 0 0 10px;}
